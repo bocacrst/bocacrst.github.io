@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Search from './models/Search';
 import {elements,renderLoader, clearLoader} from './views/base';
 import * as searchView from './views/searchView';
@@ -51,3 +52,6 @@ elements.searchResPages.addEventListener('click',el => {
 const r = new Recipe(47746);
 r.getRecipe();
 console.log(r);
+=======
+// Global app controller
+>>>>>>> parent of 9b27299... API, Search, pagination
