@@ -1,6 +1,7 @@
 import Search from './models/Search';
 import {elements,renderLoader, clearLoader} from './views/base';
 import * as searchView from './views/searchView';
+import Recipe from './models/Recipe';
 
 const state = {};
 
@@ -47,3 +48,5 @@ elements.searchResPages.addEventListener('click',el => {
 
 })
 
+const r = new Recipe(47746);
+r.getRecipe();
