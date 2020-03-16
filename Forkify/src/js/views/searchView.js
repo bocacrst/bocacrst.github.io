@@ -37,7 +37,7 @@ const renderRecipe = recipe  =>{
         elements.searchResList.insertAdjacentHTML('beforeend', mokup);
 };
 
-const limitRecipeTitle = (title, limit =17) => {
+export const limitRecipeTitle = (title, limit =17) => {
     
     const newTitile = [];
 
