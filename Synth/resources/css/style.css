@@ -191,8 +191,17 @@ header{
     width: auto;
     float: left;
     margin-top: 20px;
-
 }
+.logo-black{
+    display: none;
+    height: 60px;
+    width: auto;
+    float: left;
+    margin: 0 0;
+}
+
+/*Main nav*/
+
 .main-nav{
     float: right;
     list-style: none;
@@ -216,9 +225,28 @@ header{
     
     border-bottom: 2px solid rgb(163, 33, 31);
     -webkit-transition: border-bottom 0.4s;
-    transition: border-bottom 0.4s;
-    
+    transition: border-bottom 0.4s;   
 }
+
+/*Sticky nav*/
+.sticky .main-nav{margin-top: 20px;}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 2px rgb(161, 161, 161);
+    z-index: 9999;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 16px 0px;
+    color: #555;
+}
+.sticky .logo{display: none;}
+.sticky .logo-black{display: block;}
 
 /*################################################*/
 /*-------------------PHOTOS-----------------------*/
