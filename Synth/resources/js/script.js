@@ -9,6 +9,13 @@ $(document).ready(function(){
       offset: '250px;'
     });
  
+    $('.js--scroll-to-plans').click(function () {
+        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000); 
+     });
+     
+     $('.js--scroll-to-about').click(function () {
+        $('html, body').animate({scrollTop: $('.js--section-feature').offset().top}, 1000); 
+     });
 });
 
 /*
