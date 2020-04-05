@@ -4687,3 +4687,13 @@ input, select, textarea {
 		}
 
 	}
+
+.budget p{
+	margin-top: 100px;
+}
+.budget ul{
+	margin-top: 190px;
+}
+.synth ul{
+	margin-top: 130px;
+}
