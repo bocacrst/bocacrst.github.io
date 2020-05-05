@@ -7,11 +7,34 @@ body{
     background-color: #FFFFFF;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #adf1ff 24%, #ffaeaf 49%, #7a5691 75%, #1b163f 100%);
     min-height: 1000vh;
+    overflow-x: hidden;
+    font-family: 'Freckle Face', cursive;
+    color: rgb(255, 187, 0);
 
+}
+.box{
+    width: 100px;
+    height: 500px;
+    background: red;
+    margin: 50px;
+    
 }
 .star{
     position: relative;
-   
-    margin-top: 8000px;
+   width: 250%;
+    margin-top: 8800px;
   
 }
+/*div{
+    min-height: 400px;
+    display: flex;
+    
+    
+}
+
+h1{   
+    
+    size: 200%;
+    text-align: center;
+    
+}*/
