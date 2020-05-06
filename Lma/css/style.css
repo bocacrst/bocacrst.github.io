@@ -12,7 +12,7 @@ body {
   min-height: 1000vh;
   overflow-x: hidden;
   font-family: 'Freckle Face', cursive;
-  color: #ffbb00;
+  color: #ffc62b;
 }
 
 .box {
@@ -29,12 +29,27 @@ body {
 }
 
 div {
-  min-height: 00px;
-  margin: 300px 100px;
+  margin: 500px 50px;
+}
+
+.div_5, .div_6, .div_7 {
+  color: #ffec42;
+}
+
+.div_8 {
+  color: #fcd600;
 }
 
 h1 {
   size: 200%;
   text-align: center;
+}
+
+.papa, .ada {
+  position: relative;
+  height: 200px;
+  right: -50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 /*# sourceMappingURL=style.css.map */
