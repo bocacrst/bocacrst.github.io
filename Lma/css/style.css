@@ -39,16 +39,33 @@ h1 {
   margin-top: 100px;
 }
 
+.div_12 {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 1200px;
+}
+
+.div_12 .us {
+  position: relative;
+  height: 300px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  top: 500px;
+}
+
 .stars {
-  margin-top: 500px;
+  margin-top: 1200px;
   background-image: url(../img/stars.png);
-  padding: 1500px 0px;
+  padding: 500px 0px;
 }
 
 .papa, .ada {
   position: relative;
   margin: 30px 0px;
-  height: 250px;
+  height: 300px;
   right: -50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
